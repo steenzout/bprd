@@ -6,7 +6,7 @@ defmodule Hellboy.Application do
   def start(_type, _args) do
     children = [
       # Starts a worker by calling: Hellboy.Worker.start_link(arg)
-      # {Hellboy.Worker, arg},
+      {Task.Supervisor, name: Hellboy.RouterTasks},
     ]
 
     opts = [strategy: :one_for_one, name: Hellboy.Supervisor]
