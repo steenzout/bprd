@@ -7,7 +7,8 @@ The B.P.R.D. project is a set of mix projects to learn more about the BEAM VM.
 This projects main layout & challenge is layed out in the private CaptBenDaimio project.
 
 ### To Start {foo} Project
-	Start by cloning the repo: $ `git clone git@github.com:jrichocean/bprd.git`
+
+Start by cloning the repo: $ `git clone git@github.com:jrichocean/bprd.git`
 
 *__Abe Sapian__*
 
