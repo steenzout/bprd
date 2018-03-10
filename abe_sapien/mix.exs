@@ -1,9 +1,9 @@
-defmodule AbeSapian.MixProject do
+defmodule AbeSapien.MixProject do
    use Mix.Project
 
    def project do
       [
-         app: :abe_sapian,
+         app: :abe_sapien,
          version: "0.1.0",
          elixir: "~> 1.6",
          start_permanent: Mix.env() == :prod,
@@ -17,7 +17,7 @@ defmodule AbeSapian.MixProject do
          extra_applications: [
             :logger
          ],
-         mod: {AbeSapian.Application, []}
+         mod: {AbeSapien.Application, []}
       ]
    end
 

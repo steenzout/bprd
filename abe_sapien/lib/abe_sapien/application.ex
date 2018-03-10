@@ -1,4 +1,4 @@
-defmodule AbeSapian.Application do
+defmodule AbeSapien.Application do
    # See https://hexdocs.pm/elixir/Application.html
    # for more information on OTP Applications
    @moduledoc false
@@ -7,13 +7,13 @@ defmodule AbeSapian.Application do
    def start(_type, _args) do
       # List all child processes to be supervised
       children = [
-         # Starts a worker by calling: AbeSapian.Worker.start_link(arg)
-         # {AbeSapian.Worker, arg},
+         # Starts a worker by calling: AbeSapien.Worker.start_link(arg)
+         # {AbeSapien.Worker, arg},
       ]
 
       # See https://hexdocs.pm/elixir/Supervisor.html
       # for other strategies and supported options
-      opts = [strategy: :one_for_one, name: AbeSapian.Supervisor]
+      opts = [strategy: :one_for_one, name: AbeSapien.Supervisor]
       Supervisor.start_link(children, opts)
    end
 end

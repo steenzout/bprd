@@ -20,7 +20,7 @@ defmodule Hellboy.Router do
   def table do
     [
       {?a..?m, :liz_sherman@localhost},
-      {?n..?z, :abe_sapian@localhost}
+      {?n..?z, :abe_sapien@localhost}
     ]
   end
 
