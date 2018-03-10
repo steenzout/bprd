@@ -3,8 +3,4 @@ defmodule LizSherman do
   Documentation for LizSherman.
   """
 
-  def hello(arg) do
-    IO.puts arg
-  end
-
 end
