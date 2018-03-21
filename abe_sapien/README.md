@@ -3,7 +3,13 @@
 
 ## To Start Node
 
-* $ `git clone git@github.com:jrichocean/bprd.git`
-* $ `cd bprd/abe_sapien`
-* $ `mix test` _(this will run whatever tests & compile app)_
-* $ `iex --sname abe_sapien@localhost -S mix`
+```shell
+$ git clone git@github.com:jrichocean/bprd.git
+$ cd bprd/abe_sapien
+
+# this will run whatever tests & compile app
+$ mix test
+$ iex --name capt@<capt IP> --cookie monster -S mix
+$ iex --sname abe_sapien@0.0.0.0 -S mix
+> :rpc.call(:"capt@<capt IP>", CaptBenDaimio, :check_in, [Node.self()])
+```
