@@ -3,7 +3,9 @@
 
 ## To Start Node
 
-* $ `git clone git@github.com:jrichocean/bprd.git`
-* $ `cd bprd/abe_sapien`
-* $ `mix test` _(this will run whatever tests & compile app)_
-* $ `iex --sname abe_sapien@localhost -S mix`
+```shell
+$ git clone git@github.com:jrichocean/bprd.git
+$ cd bprd/abe_sapien
+$ mix test _(this will run whatever tests & compile app)_
+$ iex --sname abe_sapien@localhost -S mix
+```
