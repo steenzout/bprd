@@ -28,4 +28,7 @@ use Mix.Config
 #     import_config "#{Mix.env}.exs"
 
 config :hellboy,
-    team: [LizSherman, AbeSapian, CaptBenDaimio, JohannKraus, RogerTheHomunculus]
+    mission_one: %{
+        rot_key: :hb
+    }
+    # team: [LizSherman, AbeSapian, CaptBenDaimio, JohannKraus, RogerTheHomunculus]
