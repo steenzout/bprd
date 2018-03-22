@@ -11,5 +11,4 @@ $ cd bprd/abe_sapien
 $ mix test
 $ iex --name capt@<capt IP> --cookie monster -S mix
 $ iex --sname abe_sapien@0.0.0.0 -S mix
-> :rpc.call(:"capt@<capt IP>", CaptBenDaimio, :check_in, [Node.self()])
 ```
