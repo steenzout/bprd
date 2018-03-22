@@ -41,17 +41,18 @@ Clone the repo with: $ `git clone git@github.com:jrichocean/bprd.git`
 	$ `mix test` _(this will run whatever tests & compile app)_
 	$ `iex --sname roger -S mix`
 
-The `--sname` flag will resolve to your local computers ip address, on some machines the `/etc/hosts` might not configure for your machine name to resolve to `localhost` in those cases you can append `@localhost` to your server name, in the cases this does not work, make sure that your `/etc/hosts` file has at least has `127.0.0.1   localhost` in it or feel free to add `127.0.0.1   {your_computer_name}` to your host file and those should resolve the issues, if not feel free to submit a question as an issue or message me (`@jrichocean`) on the elixir slack.
+__*Notes:*__
+The `--sname` flag locally will _typically_ resolve to your computers name or localhost.  On some machines the `/etc/hosts` might not be configured right & your computers name will not resolve to `localhost`.  In those cases you can append `@localhost` to your server name, if this does not work, make sure that your `/etc/hosts` file at least has a line that looks like **`127.0.0.1   localhost`** in it or you can add **`127.0.0.1   {your_computer_name}`** to your host file and those should resolve the issues, if not feel free to submit a question as an issue or message me (`@jrichocean`) on the elixir slack.
 
 
-### Distributed Start Instructions:
+## Distributed Start Instructions:
 
 Instead of starting your mix projects/apps with
 
-$ `iex --sname {foo} -S mix` 
+$ `iex --sname {foo} -S mix`
 
 You can also start a project with a proper server name and address like:
 
-$ `iex --name {foo}@{ip_addr_of_machine} --cookie {monster} -S mix` 
+$ `iex --name {foo}@{ip_addr_of_machine} --cookie {monster} -S mix`
 
-__NOTE:__ if you are starting different projects on different machines you will need to set a common cookie with the `--cookie {whatever}` flag, typically if they are all started locally they will use the cookie in `cat ~/.erlang.cookie` but when they are on different machines they need a common cookie or ssh key set to allow a connection. 
+__NOTE:__ if you are starting different projects on different machines you will need to set a common cookie with the `--cookie {whatever}` flag, typically if they are all started locally they will use the cookie in `cat ~/.erlang.cookie` but when they are on different machines they need a common cookie or ssh key set to allow a connection.
