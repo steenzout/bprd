@@ -1,6 +1,5 @@
 # LobsterJohnson
-<!-- ![roger](https://cldup.com/tvE6IjxHAz.png)![roger](https://cldup.com/wU8zjwaj2i.png) -->
-
+![lobster johnson](https://cldup.com/ZvUOm-lwYl.jpg)![lobster johnson](https://cldup.com/9E03KAFLh3.png)
 
 ### Quick Start Node:
 
