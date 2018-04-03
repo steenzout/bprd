@@ -1,10 +1,11 @@
-# LobsterJohnson
+# Lobster Johnson
+
 ![lobster johnson](https://cldup.com/ZvUOm-lwYl.jpg)![lobster johnson](https://cldup.com/9E03KAFLh3.png)
 
 ### Quick Start Node:
 
 * $ `git clone git@github.com:jrichocean/bprd.git`
-* $ `cd bprd/roger_the_homunculus`
+* $ `cd bprd/lobster_johnson`
 * $ `mix test` _(this will run whatever tests & compile app)_
 * $ `iex --sname lobster_johnson -S mix`
 
