@@ -1,6 +1,5 @@
 defmodule Hellboy do
-  @moduledoc """
-  Documentation for Hellboy.
-  """
-
+    @moduledoc """
+    Documentation for Hellboy.
+    """
 end

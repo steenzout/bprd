@@ -24,7 +24,7 @@ defmodule AbeSapien.MixProject do
    # Run "mix help deps" to learn about dependencies.
    defp deps do
       [
-         {:agent_toolbelt, path: "../../agent_toolbelt"}
+         # {:agent_toolbelt, path: "../../agent_toolbelt"}
       ]
    end
 end
